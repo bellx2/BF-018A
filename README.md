@@ -2,6 +2,8 @@
 ## ATOMS3 Lite, ATOM Lite/Matrixで動作する標準電波(JJY)シミュレータ
 ※ ATOMS3(無印)には対応しておりません。
 
+### 2026/10/7 修正
+- Rev.4の動作確認状況を更新しました。ATOMS3 Liteで、M5Stack 3.3.9(Boards Manager)ほか最新のライブラリでの動作を確認しました。
 ### 2025/8/15 修正
 - Rev.4を追加しました。M5Stack 3.x(Boards Manager)に対応しました。Rev.4はATOMS3 Liteで使用いただけます。
 - BF-018ARev3.inoを修正しました。M5Atom Lite/Matrixの判定を改善しました。
@@ -20,14 +22,14 @@
 
 動作確認状況：
 
-| tool | item | 2025/8/15 |
-|:-:|:-:|:-:|
-|Application| Arduino-IDE | 2.3.6 |
-|Boards Manager| M5Stack by M5Stack official | 3.2.3 |
-|Library Manager| M5Unified by M5Stack | 0.2.10  |
-|Library Manager| M5GFX by M5Stack | 0.2.16  |
-|Library Manager| FastLED by Daniel Garcia | 3.10.3 |
-|Library Manager| WiFiManager by tzapu | 2.0.17 |
+| tool | item | 2025/8/15 | 2026/10/7 |
+|:-:|:-:|:-:|:-:|
+|Application| Arduino-IDE | 2.3.6 | 2.3.10 |
+|Boards Manager| M5Stack by M5Stack official | 3.2.3 | 3.3.9 |
+|Library Manager| M5Unified by M5Stack | 0.2.10  | 0.2.25 |
+|Library Manager| M5GFX by M5Stack | 0.2.16  | 0.2.32 |
+|Library Manager| FastLED by Daniel Garcia | 3.10.3 | 3.10.6 |
+|Library Manager| WiFiManager by tzapu | 2.0.17 | 2.0.17 |
 
 ### Rev.3
 - フォルダ: BF-018ARev3
